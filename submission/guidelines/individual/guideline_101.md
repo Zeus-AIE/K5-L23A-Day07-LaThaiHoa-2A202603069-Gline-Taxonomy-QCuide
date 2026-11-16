@@ -1,4 +1,4 @@
-# Guideline gán nhãn — v1.0 — Nhóm [Tên/Mã nhóm]
+# Guideline gán nhãn — v1.0 — Nhóm TeamDauLop
 
 - Phiên bản: v1.0
 - Ngày: 16/11/2026
@@ -20,6 +20,11 @@ Bộ dữ liệu phục vụ huấn luyện mô hình **phát hiện vật thể
 | `motorcycle` | Phương tiện cơ giới 2 hoặc 3 bánh có tay lái ghi-đông, không có khoang cabin kín hoàn toàn. | Xe máy, xe tay ga, mô tô phân khối lớn, xe đạp điện, xe tuk-tuk / xe ba gác máy. | Xe đạp thường không động cơ (loại trừ), người điều khiển ngồi trên xe (`person`). |
 | `person` | Con người thật đang đứng, đi bộ, ngồi hoặc điều khiển phương tiện trên đường/vỉa hè. | Người đi bộ, người lái xe máy, người đi xe đạp, trẻ em, người ngồi xe lăn. | Ma-nơ-canh, tượng người, hình nộm cảnh sát, ảnh người trên biển quảng cáo. |
 | `ignore_region` | Vùng chứa nhóm đối tượng quá dày đặc hoặc ca biên không thể tách rời từng box riêng lẻ. | Đám đông người đi bộ dính chùm, bãi đỗ xe máy san sát ở xa không tách được từng chiếc. | Các vật thể đơn lẻ có thể vẽ box bình thường nhưng bị che khuất một phần. |
+| `bicycle` | Phương tiện 2 bánh di chuyển bằng sức người thông qua bàn đạp, không gắn động cơ. | Xe đạp thể thao, xe đạp mini, xe đạp địa hình, xe đạp thồ hàng. | Xe đạp điện / xe máy (`motorcycle`), xe xích lô 3 bánh (`three wheel`). |
+| `three wheel` | Phương tiện 3 bánh (cơ giới hoặc thô sơ) dùng để chở hàng hoặc chở người, không thuộc kiểu xe tuk-tuk. | Xe ba gác máy chở hàng, xe lôi, xe xích lô, xe máy 3 bánh (trike). | Xe `tuk-tuk` chở khách có mui, xe máy 2 bánh (`motorcycle`). |
+| `tuk-tuk` | Xe chở khách 3 bánh đặc trưng có khoang ngồi phía sau liền mái che và đầu lái dạng ghi-đông. | Xe tuk-tuk Thái Lan/Campuchia, xe auto-rickshaw, xe lam chở khách truyền thống. | Xe ba gác chở hàng không mui (`three wheel`), xe tải nhỏ (`truck`). |
+| `bus` | Xe ô tô chở khách cỡ lớn (thường từ 16 chỗ trở lên) có thân xe dài và khoang hành khách rộng. | Xe buýt nội đô, xe khách liên tỉnh, xe đưa đón học sinh/công nhân cỡ lớn. | Xe minivan 7-9 chỗ hoặc xe khách cỡ nhỏ 12-16 chỗ (`van`). |
+
 
 **Xử lý vật không thuộc lớp nào (`R-00`):**
 - Các vật thể ngoài danh sách trên (xe đạp thường, xe buýt cỡ lớn nếu không nằm trong `truck`, cột đèn, thùng rác, động vật) → **Không gán nhãn** (bỏ qua hoàn toàn).
