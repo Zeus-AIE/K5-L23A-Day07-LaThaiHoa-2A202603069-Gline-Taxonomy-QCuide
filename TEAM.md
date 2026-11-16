@@ -1,9 +1,9 @@
 # Thông tin nhóm
 
-- Tên nhóm:
-- Mã thành viên (ba chữ số):
-- Người điều phối:
-- Người review bản cuối:
+- Tên nhóm:TeamDauLop
+- Mã thành viên (ba chữ số):101
+- Người điều phối:Trần Thọ Lâm
+- Người review bản cuối:Trần Thọ Lâm
 - Commit chốt bài (điền ở kênh nộp sau khi commit):
 
 ## Kết quả tóm tắt (điền cuối bài)
