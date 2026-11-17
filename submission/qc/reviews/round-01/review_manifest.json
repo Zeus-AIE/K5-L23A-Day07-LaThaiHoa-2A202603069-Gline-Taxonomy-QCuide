@@ -3,7 +3,7 @@
   "mode": "full",
   "seed": null,
   "labels_sha256": "279cb687f7ef7cb2bd3a0e2c73bc718542c5e6a09d5affcb2941114b654659c1",
-  "batch_manifest_sha256": "a2e50a289b94c66ed4aa1a2065e1d4f6980e5e2f2dcccce6435173ad9e1e552a",
+  "batch_manifest_sha256": "558de76d3dc6b6e01a24c32d01a4398754652db6cf4cdc485ba092b0279c8fb7",
   "sample_sha256": "6df51c51e4d9fbea7ae68b792c248c89d27852c170c08a9d7b3d097c27a9bc3c",
   "calibration_decisions_sha256": "9af21ca8ae15a294dbe14aaa48cb3113a8b0e78799f0c31cc17f5427d8937acb"
 }
