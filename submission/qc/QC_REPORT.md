@@ -1,7 +1,7 @@
 # Báo cáo Nghiệm thu Chất lượng Dữ liệu (QC Report) — Nhóm TeamDauLop
 
 - Mục đích và giới hạn sử dụng: Bộ dữ liệu 40 ảnh giao thông đô thị (372 annotations, 10 lớp) phục vụ huấn luyện và đánh giá mô hình Phát hiện Vật thể 2D (ADAS / giám sát giao thông); không dùng cho nhận diện danh tính cá nhân.
-- Manifest và checksum nhãn cuối: `submission/qc/labels_calibrated.json` (SHA-256: `279cb687f7ef7cb2bd3a0e2c73bc718542c5e6a09d5affcb2941114b654659c1`), đối chiếu `submission/qc/batch_manifest.json` (SHA-256: `a2e50a289b94c66ed4aa1a2065e1d4f6980e5e2f2dcccce6435173ad9e1e552a`).
+- Manifest và checksum nhãn cuối: `submission/qc/labels_calibrated.json` (SHA-256: `279cb687f7ef7cb2bd3a0e2c73bc718542c5e6a09d5affcb2941114b654659c1`), đối chiếu `submission/qc/batch_manifest.json` (SHA-256: `558de76d3dc6b6e01a24c32d01a4398754652db6cf4cdc485ba092b0279c8fb7`).
 - Guideline và taxonomy khi gán / khi bàn giao: Gán chéo theo `taxonomy.json` v1.0 (10 lớp) và `guideline_v1.0.md`; bàn giao theo `guideline_v1.1_calibrated.md` (bổ sung sau Calibration, `kind: editorial`).
 - Lượt hoàn thành / được giao: 120/120 lượt gán chéo hoàn thành (5 thành viên `101`–`105`, mỗi thành viên 24/40 ảnh; đạt 100% phân công).
 - Vòng QC: 1
