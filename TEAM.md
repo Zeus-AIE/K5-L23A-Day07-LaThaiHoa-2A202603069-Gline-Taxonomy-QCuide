@@ -4,7 +4,7 @@
 - Mã thành viên (ba chữ số):101
 - Người điều phối:Trần Thọ Lâm
 - Người review bản cuối:Trần Thọ Lâm
-- Commit chốt bài (điền ở kênh nộp sau khi commit):
+- Commit chốt bài (điền ở kênh nộp sau khi commit):Completed submission
 
 ## Kết quả tóm tắt (điền cuối bài)
 
