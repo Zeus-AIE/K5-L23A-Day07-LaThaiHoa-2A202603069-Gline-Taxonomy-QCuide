@@ -3,3 +3,10 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# Ignore heavy model weights
+*.pt
+*.pth
+*.onnx
+weights/
+work/

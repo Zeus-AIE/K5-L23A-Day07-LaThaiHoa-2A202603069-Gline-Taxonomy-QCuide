@@ -1,0 +1,4 @@
+{
+  "kind": "editorial",
+  "summary": "Clarify occluded_level grading for riders/passengers (R-09), enforce 20px minimum height and non-overlapping ignore_region boundaries for distant crowds (R-03), and standardize pickup truck, van, three_wheel, and tuk_tuk rules in guideline v1.1."
+}
